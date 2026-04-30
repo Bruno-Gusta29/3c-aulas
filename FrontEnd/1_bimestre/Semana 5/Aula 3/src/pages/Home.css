@@ -1,0 +1,31 @@
+.titulo{
+    color:blue;
+}
+
+.nome{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    flex-direction: row;
+}
+
+.nome_1{
+    box-shadow: 5px;
+    background-color: aqua;
+    padding: 10px;
+    border: 5px solid black;
+}
+
+.nome_2{
+    box-shadow: 5px;
+    background-color: aqua;
+    padding: 10px;
+    border: 5px solid black;
+}
+
+.nome_3{
+    box-shadow: 5px;
+    background-color: aqua;
+    padding: 10px;
+    border: 5px solid black;
+}

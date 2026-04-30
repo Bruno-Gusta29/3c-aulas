@@ -1,0 +1,71 @@
+.container{
+    display: grid;
+    grid-template-rows: 
+    auto
+    auto
+    auto
+    auto;
+    gap: 20px;
+}
+
+body{
+    background-color: #0b980172;
+    }
+    p{
+        color:cyan;
+        font-size: large;
+    }
+    ul{
+        list-style: none;
+    }
+    /*
+    li{
+        display: inline;
+        margin-right: 20px;
+    }
+*/
+    button {
+        background-color: green;
+        color: white;
+        padding: 10px;
+        border: none;
+        transition: background-color 0.3s, color 0.3s;
+    }
+
+    /*
+    button:hover {
+        background-color: red;
+        color: white;
+        padding: 10px;
+        border: none;
+    
+    }
+    */
+    .nome{background-color: rgb(31, 253, 2);}
+    .pagina{
+        background-color: rgb(223, 23, 23);
+        padding: 20px;
+    }
+
+    .menu{
+        background-color: blueviolet;
+        padding: 20px;
+    }
+
+    .imagem{
+        background-color: #f90bb172;
+        padding: 20px;
+    }
+
+    form{
+        background-color: #ff090955;
+        padding: 20px;
+    }
+
+    .menu ul{
+        background-color: rgb(40, 255, 6);
+        display:flex; /* flex coloca os itens lado a lado */
+        flex-direction: row;
+        gap: 10px;
+        justify-content: space-evenly;
+    }

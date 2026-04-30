@@ -1,0 +1,9 @@
+{
+	"nome":"bruno",
+	"idade":17,
+	"curso":"desenvolvimento de sistema",
+	"disc":["bd","projeto multidisciplinas","ia","backend","frontend"],
+	"ativo":true,
+	"email":"bruno.galani@gmail.com",
+	"celular":"19-99453-5325"
+}

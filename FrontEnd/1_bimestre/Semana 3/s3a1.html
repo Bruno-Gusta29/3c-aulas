@@ -1,0 +1,61 @@
+<!--s3a3- estilização uso flex box e grid-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+    <!--s3a2-introdução ao css
+    objetivo: conhecer os conceitos bascios do css-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bruno</title>
+    <link rel="stylesheet" href="sytle.css">
+</head>
+<body>
+    <div class="container">
+    <div class="pagina">
+    <h1>Minha Página HTML</h1>
+    </div>
+
+    <main class="menu">
+    <ul><!--Lista-->
+        <li><a href="#">Inicio</a></li> <!-- itens da lista -->
+        <li><a href="#">Sobre</a></li>
+        <li><a href="#">Contato</a></li>
+        <div class="content-box"><li><a href="https://www.google.com.br">Google</a></li></div>
+    </ul>
+    </div>
+    <from>
+        <div class="nome">
+        <label>Nome:</label><br>
+        <input type="text"><br><br>
+        </div>
+
+        <label>Data de Nascimente</label><br>
+        <input type="date"><br><br>
+
+        <label>Email</label><br>
+        <input type="email"><br><br>
+
+        <button type="button" onclick="mudarCor()">Enviar</button>
+    </from>
+
+    <p><b>Olá mundo!! Hello world!</b></p>
+    <p style="background-color: darkcyan;">Olá Mundo!</p>
+    <a style="background-color: chartreuse;">Jeferson</a>
+
+    <hr>
+        <div class="imagem">
+            <img src="kyurem.black.png" width="300" alt="Kyurem">
+        </div>
+    <hr>
+        <p><button>Clique Aqui</button></p>
+    </div>
+</body>
+
+<script>
+    function mudarCor(){
+        document.querySelector("button").style.backgroundColor = "red";
+    }
+</script>
+
+</html>
